@@ -20,10 +20,6 @@ h1{
     text-shadow: 4px 4px 5px rgba(0,0,0,0.5);
 }
 
-p {
-    font-weight: 300;
-}
-
 .content{
     text-align: center;
 }
@@ -67,6 +63,8 @@ p {
 .infoContent .block h3{
     font-size: 25px;
     margin: 5px 0 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 .infoContent .block{
@@ -86,11 +84,13 @@ p {
     color: black;
     margin: 10px 0;
     display: inline-block;
-    transition: 0.3 s;
+    transition: 0.3s;
 }
 
 .btn:hover {
-    transform:scale;
+    transform:scale(1.2);
+    letter-spacing: 3px;
+    color: white;
 }
 
 /*Animación*/
